@@ -56,13 +56,33 @@
 #     i+=1
 
 
-a=str(input("Enter a string:"))
-b=["a","e","i","o","u","A","E","I","O","U"]
-c=0
+# a=str(input("Enter a string:"))
+# b=["a","e","i","o","u","A","E","I","O","U"]
+# c=0
+# i=0
+# while i<len(a):
+#   if a[i] in b: 
+#     # print(a[i])
+#    c+=1
+#    print(a[i],"=",c)
+#   i+=1
+
+# b=[]
+# i=10
+# while len(b)<=i:
+#     b=int(input("Enter a number:"))
+    
+
+    
+
+a=input("Enter a string:")
+
+length=len(b)
 i=0
-while i<len(a):
-  if a[i] in b: 
-    # print(a[i])
-   c+=1
-   print(a[i],"=",c)
-  i+=1
+while i<length:
+    j=i
+    while j<length:
+        substring=b[i:j+1]
+        print(substring)
+        j+=1
+    i+=1
