@@ -75,14 +75,15 @@
 
     
 
-a=input("Enter a string:")
-
-length=len(b)
-i=0
-while i<length:
-    j=i
-    while j<length:
-        substring=b[i:j+1]
-        print(substring)
-        j+=1
-    i+=1
+# a=str(input("Enter a string:"))
+# i=0
+# while i<len(a):
+#         print(a[i])
+#         i+=1
+        
+# a=str(input("Enter a string:"))
+# i=0
+# while i<len(a):
+#     if a.isupper:
+        
+    
