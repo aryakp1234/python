@@ -1,7 +1,7 @@
 # #range in for
 
 # for i in range(2,10,2):
-#     print(i)
+    # print(i)
 
 #  #set and list in range
 

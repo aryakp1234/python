@@ -1,5 +1,5 @@
 d={
-    "name":"arya",
+    "name":"arya",                            
     "age":20,
     "rollno":21,
     "place":"kasaragod"
@@ -7,20 +7,20 @@ d={
 print(d)
 
 
-
+                                                                 
 #add
 d.update({"father":"suku"})
 print(d)
 
-#replace
+#replace                                                                                                                                                           
 d["name"]="abhi"
 print(d)
 
-#delete
+#delete                           
 d.pop("place")
 print(d)
 
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
 #keys
 c=d.keys()
 print(c)
