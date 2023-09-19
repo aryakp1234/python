@@ -7,9 +7,9 @@ for i in range  (1,len(list)):
         max=list[i]
         i=2
         if list[0]>list[4]:
-            print("the value is",)
+            print("the value is",list[0])
         else:
-            print ("the value is:",)
+            print ("the value is:",list[4])
 
 
 print ("maximum index position:",list.index(max))
