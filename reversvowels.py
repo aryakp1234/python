@@ -1,7 +1,26 @@
-a=input("enter a string:")
-reverse=[]
+# a=(input("enter a word:"))
+# # print(a[::-1])
+# for i in 'aeiou':
+#     if i in a:
+#         print(a[::-1])
+#     break
+# else:
+#     print ("vowels")
+
+
+# vowels reverse 2
+
+a=(input("enter a string:"))
+# vowels=['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+b=[]
 for i in a:
-    print (i)
-    if (i=="a" or i=="e" or i=="i" or i=="o" or i=="u" or i=="A" or i=="E" or i=="I" or i=="O" or i=="U"):
-        reverse[i]
-        print ("no of vowels",reverse)
+    b.append[i]
+pos=0
+l=[]
+for i in b:
+    if i in 'aeiou':
+        print (i,a.index(i))
+    
+#     l.append(i.index(i))
+# print(l)
+
