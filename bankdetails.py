@@ -26,29 +26,31 @@ while True:
             print("age:",user_details["age"])
             print("contact_number:",user_details["contact_number"])
             print("bankbalance:",user_details["bankbalance"])
-            print (user_list)
+       
          
     elif choice=="3":
-        name=input("Enter your name:")
-        deposit_amount=float(input("Enter the deposit amount:"))
-        for user_details in user_list:
-            if user_details["name"]==name:
-               user_details["bankbalance"]+=deposit_amount
-               print ("deposit successfull")
-            
-    # elif choice=="4":
-
-
-
-
-
-
-
-    # elif choice==5:
-    #     print ("exiting program.")
-    # else:
-    #     print("invalid choice.choose a valid option")
-
-
-
-
+            username=input("enter the username:")
+            amount = int(input("Enter the deposit amount: "))
+            for user_details in user_list:
+                 if user_details["name"]==username:
+                      user_details["bankbalance"]+=amount
+                      print("Deposit successfull...!New bank balance:",user_details["bankbalance"])
+              
+    elif choice=="4":
+            username=input("enter the username:")
+            amount = int(input("Enter the amount to withdraw: ")) 
+            for user_details in user_list:
+                if user_details["name"]==username:
+                    if user_details["bankbalance"]<=amount:
+                         print("insufficiant")
+                    else:
+                        user_details["bankbalance"]-=amount
+                        print("withdrawal successfull..!!New bank balance:",user_details["bankbalance"])
+        
+    elif choice=="5":
+         print("program completed!!!")
+         break
+    else:
+         print("invalid choice.please try again")
+         
+                 
